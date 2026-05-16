@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Siswa — Kelas XI TIK</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=3" />
+</head>
+<body>
+  <canvas id="particles-canvas"></canvas>
+  <div class="bg-mesh"></div>
+  <div class="grid-overlay"></div>
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="hero-banner">
+        <ul class="banner-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#nilai">Nilai</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+        <h1 class="hero-banner-title">Profil Calvin Kelas XI-A5/06</h1>
+        <p class="hero-banner-sub">Mata Pelajaran TIK</p>
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-tag">
+            <span class="dot"></span> Siswa Aktif · Kelas XI
+          </div>
+          <h2 class="hero-name">
+            Halo, Aku<br />
+            <span class="gradient-text">Calvin Dharmawan</span>
+          </h2>
+          <p class="hero-subtitle">
+            Passionate tentang web development &amp; teknologi masa depan.
+          </p>
+          <div class="stats-row-hero">
+            <div class="stat-item">
+              <div class="stat-num">4</div>
+              <div class="stat-label">Materi</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">3</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num" id="avg-score">—</div>
+              <div class="stat-label">Rata-rata</div>
+            </div>
+          </div>
+          <div class="skill-tags-hero">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Web Design</span>
+          </div>
+          <div class="btn-group">
+            <a href="#projects" class="btn-primary">Lihat Projects →</a>
+            <a href="#nilai" class="btn-ghost">Tabel Nilai</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="profile-card">
+            <div class="profile-glow"></div>
+            <div class="avatar-wrapper">
+              <img src="Calvin_pfp.jpeg" alt="Calvin Dharmawan" class="avatar-img" />
+            </div>
+            <div class="card-name">Calvin Dharmawan</div>
+            <div class="card-role">Siswa Kolese Kanisius Jakarta</div>
+            <div class="biodata-list">
+              <div class="biodata-row"><span class="biodata-key">Kelas</span><span class="biodata-val">XI-A5</span></div>
+              <div class="biodata-row"><span class="biodata-key">Sekolah</span><span class="biodata-val">Kolese Kanisius</span></div>
+              <div class="biodata-row"><span class="biodata-key">Hobi</span><span class="biodata-val">Coding &amp; Design</span></div>
+              <div class="biodata-row"><span class="biodata-key">Cita-cita</span><span class="biodata-val">Software Engineer</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="section-inner">
+        <div class="section-label">Tentang Saya</div>
+        <h2 class="section-title">Siapa Aku? ☆</h2>
+        <div class="about-grid reveal">
+          <div class="about-text">
+            <p>
+              Perkenalkan, saya Calvin Dharmawan, siswa kelas 11 di <strong>SMA Kolese Kanisius</strong>. Saya memiliki 
+              minat dan ketertarikan yang tinggi dalam bidang pengembangan web karena menurut saya teknologi 
+              website memiliki peran yang sangat besar dalam kehidupan modern. Saya tertarik mempelajari 
+              bagaimana sebuah website dapat dirancang tidak hanya agar terlihat menarik, tetapi juga dapat 
+              berfungsi dengan baik dan memberikan pengalaman yang nyaman bagi pengguna.
+            </p>
+            <p>
+              Pengalaman belajar TIK saya diperoleh selama <strong>kurang lebih lima tahun</strong> belajar di Kolese Kanisius. 
+              Selain itu, saya juga banyak belajar secara mandiri melalui video pembelajaran di YouTube dan pernah 
+              mempelajari sedikit tentang competitive programming atau informatika.
+            </p>
+            <p>
+              Tujuan saya mempelajari pemrograman web adalah agar saya dapat menciptakan website yang <strong>bermanfaat dan 
+              memberikan dampak positif</strong> bagi banyak orang. Menurut saya, website bukan hanya sekadar media digital, tetapi 
+              juga sarana untuk menyampaikan informasi, membangun komunikasi, dan membantu berbagai aktivitas masyarakat menjadi 
+              lebih mudah dan efisien.
+            </p>
+          </div>
+          <div class="about-sidebar">
+            <div class="sidebar-card">
+              <div class="sidebar-card-icon">💡</div>
+              <div class="sidebar-card-title">Minat Utama</div>
+              <div class="sidebar-card-text">Web Development, UI/UX Design, dan eksplorasi teknologi baru yang terus berkembang.</div>
+            </div>
+            <div class="sidebar-card">
+              <div class="sidebar-card-icon">📖</div>
+              <div class="sidebar-card-title">Pengalaman Belajar</div>
+              <div class="sidebar-card-text">5 tahun di Kolese Kanisius dan 3 tahun dilakukan secara mandiri.</div>
+            </div>
+            <div class="sidebar-card">
+              <div class="sidebar-card-icon">🎯</div>
+              <div class="sidebar-card-title">Tujuan</div>
+              <div class="sidebar-card-text">Menjadi web developer yang membangun produk berdampak untuk jutaan pengguna.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nilai" class="table-section">
+      <div class="section-inner">
+        <div class="section-label">Akademik</div>
+        <h2 class="section-title">Tabel Nilai ☆</h2>
+        <div class="reveal">
+          <div class="tabel-wrapper">
+            <div class="tabel-header-bar">
+              <span class="tabel-dot red"></span>
+              <span class="tabel-dot yellow"></span>
+              <span class="tabel-dot green"></span>
+              <span class="tabel-filename">nilai_semester.csv</span>
+            </div>
+            <table class="nilai-table-v2">
+              <thead>
+                <tr>
+                  <th class="col-no">#</th>
+                  <th class="col-materi">Materi</th>
+                  <th class="col-nilai">Nilai</th>
+                  <th class="col-grade">Grade</th>
+                  <th class="col-bar">Progress</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="row-best">
+                  <td class="col-no"><span class="line-num">01</span></td>
+                  <td class="col-materi"><span class="materi-icon">🌐</span> Laporan Mini Project</td>
+                  <td class="col-nilai"><span class="skor skor-best">100</span></td>
+                  <td class="col-grade"><span class="gtag gtag-s">A+</span></td>
+                  <td class="col-bar"><div class="mini-bar-wrap"><div class="mini-bar mini-bar-best" style="--w:100%"></div></div></td>
+                </tr>
+                <tr>
+                  <td class="col-no"><span class="line-num">02</span></td>
+                  <td class="col-materi"><span class="materi-icon">🎨</span> Nilai Ulangan Harian Bootstrap</td>
+                  <td class="col-nilai"><span class="skor">85</span></td>
+                  <td class="col-grade"><span class="gtag gtag-b">B</span></td>
+                  <td class="col-bar"><div class="mini-bar-wrap"><div class="mini-bar mini-bar-b" style="--w:85%"></div></div></td>
+                </tr>
+                <tr class="row-best">
+                  <td class="col-no"><span class="line-num">03</span></td>
+                  <td class="col-materi"><span class="materi-icon">📱</span> Tugas Website Biodata</td>
+                  <td class="col-nilai"><span class="skor skor-best">100</span></td>
+                  <td class="col-grade"><span class="gtag gtag-s">A+</span></td>
+                  <td class="col-bar"><div class="mini-bar-wrap"><div class="mini-bar mini-bar-best" style="--w:100%"></div></div></td>
+                </tr>
+                <tr>
+                  <td class="col-no"><span class="line-num">04</span></td>
+                  <td class="col-materi"><span class="materi-icon">⚡</span> Analisis Javascript Mini Project</td>
+                  <td class="col-nilai"><span class="skor">90</span></td>
+                  <td class="col-grade"><span class="gtag gtag-a">A</span></td>
+                  <td class="col-bar"><div class="mini-bar-wrap"><div class="mini-bar mini-bar-a" style="--w:90%"></div></div></td>
+                </tr>
+                <tr>
+                  <td class="col-no"><span class="line-num">05</span></td>
+                  <td class="col-materi"><span class="materi-icon">🚀</span> Mengembangkan Website yang Sudah Dibuat</td>
+                  <td class="col-nilai"><span class="skor skor-na">—</span></td>
+                  <td class="col-grade"><span class="gtag gtag-na">–</span></td>
+                  <td class="col-bar"><div class="mini-bar-wrap"><div class="mini-bar mini-bar-na" style="--w:0%"></div></div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-summary">
+            <div class="summary-chip">Total Penilaian: <b>5</b></div>
+            <div class="summary-chip">Rata-rata: <b id="rata-rata">—</b></div>
+            <div class="summary-chip">Nilai Tertinggi: <b>100</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-inner">
+        <div class="section-label">Portfolio</div>
+        <h2 class="section-title">Projects Saya ☆</h2>
+        <div class="projects-grid">
+
+          <div class="project-card reveal">
+            <div class="project-card-glow"></div>
+            <div class="project-num">Project / 01</div>
+            <div class="project-preview">
+              <img src="project_1.png" alt="Biodata Kanisian preview" class="project-preview-img" />
+            </div>
+            <div class="project-title">Biodata Kanisian</div>
+            <div class="project-desc">
+              Halaman biodata bergaya neon dengan kartu profil, karakter &amp; nilai,
+              serta hobi agar bisa mengenal saya dengan lebih baik.
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+            </div>
+            <div class="btn-project-group">
+              <a href="project1.html" class="btn-project">Lihat Detail <span class="arrow">→</span></a>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-card-glow"></div>
+            <div class="project-num">Project / 02</div>
+            <div class="project-preview">
+              <img src="project_2.png" alt="Nusantara Kuliner preview" class="project-preview-img" />
+            </div>
+            <div class="project-title">Kuliner Nusantara</div>
+            <div class="project-desc">
+              Website kuliner Indonesia yang menampilkan hidangan populer, resep tradisional,
+              dan rekomendasi restoran dari berbagai penjuru nusantara.
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <div class="btn-project-group">
+              <a href="project2.html" class="btn-project">Lihat Detail <span class="arrow">→</span></a>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-card-glow"></div>
+            <div class="project-num">Project / 03</div>
+            <div class="project-preview">
+              <img src="project_3.png" alt="Taman Komodo preview" class="project-preview-img" />
+            </div>
+            <div class="project-title">Taman Komodo</div>
+            <div class="project-desc">
+              Website wisata Taman Komodo dengan informasi berkaitan dengan tempat wisata
+              serta formulir yang dapat diisi untuk memesan tiket kesana.
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <div class="btn-project-group">
+              <a href="project3.html" class="btn-project">Lihat Detail <span class="arrow">→</span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-logo">Calvin Dharmawan ☆</div>
+    <div class="footer-text">Siswa Kelas XI · Kolese Kanisius Jakarta · TIK 2025/2026</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
